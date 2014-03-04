@@ -20,8 +20,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(modid="StackableTools", name="StackableTools", version="1.7srg-1",dependencies="required-after:FML")
-//@NetworkMod(clientSideRequired=true, serverSideRequired=false)
+@Mod(modid="StackableTools", name="StackableTools", version="1.7srg-1",dependencies="required-after:FML", useMetadata = true)
 public class StackableTools
 {
 	@Mod.Instance("StackableTools")
