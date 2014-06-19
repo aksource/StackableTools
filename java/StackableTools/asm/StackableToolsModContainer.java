@@ -18,7 +18,7 @@ public class StackableToolsModContainer extends DummyModContainer{
         ModMetadata meta = getMetadata();
         meta.modId = "StackableToolsCore";
         meta.name = "StackableToolsCore";
-        meta.version = "1.0.0";
+        meta.version = "@VERSION@";
         meta.authorList = Arrays.asList("takanasayo","A.K.");
         meta.description = "Make Tools stackable";
         meta.url = "";

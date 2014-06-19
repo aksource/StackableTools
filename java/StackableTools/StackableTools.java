@@ -6,7 +6,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.init.Items;
 import net.minecraftforge.common.config.Configuration;
 
-@Mod(modid="StackableTools", name="StackableTools", version="1.7srg-1",dependencies="required-after:FML", useMetadata = true)
+@Mod(modid="StackableTools", name="StackableTools", version="@VERSION@",dependencies="required-after:FML", useMetadata = true)
 public class StackableTools
 {
 	@Mod.Instance("StackableTools")
