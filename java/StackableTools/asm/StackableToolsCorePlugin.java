@@ -9,7 +9,6 @@ import java.util.Map;
 /**
  * Created by A.K. on 14/03/14.
  */
-@IFMLLoadingPlugin.MCVersion("1.7.2")
 public class StackableToolsCorePlugin implements IFMLLoadingPlugin{
     static File location;
     @Override
