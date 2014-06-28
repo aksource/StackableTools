@@ -37,11 +37,11 @@ public class ItemToolTransformer implements IClassTransformer, Opcodes{
     {
         String owner;
         String transformedName;
-        public CustomVisitor(String owner ,String trasnformed, ClassVisitor cv)
+        public CustomVisitor(String owner ,String transformed, ClassVisitor cv)
         {
             super(Opcodes.ASM4,cv);
             this.owner = owner;
-            this.transformedName = trasnformed;
+            this.transformedName = transformed;
         }
 
         @Override
