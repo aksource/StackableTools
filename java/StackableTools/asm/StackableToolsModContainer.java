@@ -1,6 +1,5 @@
 package StackableTools.asm;
 
-import StackableTools.StackableTools;
 import com.google.common.eventbus.EventBus;
 import cpw.mods.fml.common.DummyModContainer;
 import cpw.mods.fml.common.LoadController;

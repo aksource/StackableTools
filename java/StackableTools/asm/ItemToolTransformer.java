@@ -1,16 +1,10 @@
 package StackableTools.asm;
 
-import cpw.mods.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper;
-import cpw.mods.fml.common.asm.transformers.deobf.FMLRemappingAdapter;
 import cpw.mods.fml.relauncher.FMLLaunchHandler;
 import net.minecraft.launchwrapper.IClassTransformer;
 import org.objectweb.asm.*;
-import org.objectweb.asm.tree.*;
 
-import java.lang.reflect.Method;
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * Created by A.K. on 14/03/14.

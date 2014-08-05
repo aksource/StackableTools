@@ -1,6 +1,5 @@
 package StackableTools.asm;
 
-import StackableTools.StackableTools;
 import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
 
 import java.io.File;
