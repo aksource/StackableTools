@@ -1,7 +1,7 @@
 package StackableTools.asm;
 
-import cpw.mods.fml.relauncher.FMLLaunchHandler;
 import net.minecraft.launchwrapper.IClassTransformer;
+import net.minecraftforge.fml.relauncher.FMLLaunchHandler;
 import org.objectweb.asm.*;
 
 import java.util.HashMap;
@@ -69,7 +69,7 @@ public class ItemToolTransformer implements IClassTransformer, Opcodes{
            mv.visitLabel(l0);
            mv.visitLineNumber(170, l0);
            mv.visitVarInsn(ALOAD, 1);
-           mv.visitFieldInsn(GETFIELD, "net/minecraft/item/ItemStack", "field_77994_a", "I");//net/minecraft/item/ItemStack.field_77994_a
+           mv.visitFieldInsn(GETFIELD, "net/minecraft/item/ItemStack", "field_77994_a", "I");//net/minecraft/item/ItemStack.stackSize
            mv.visitInsn(ICONST_1);
            Label l1 = new Label();
            mv.visitJumpInsn(IF_ICMPNE, l1);

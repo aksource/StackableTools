@@ -1,10 +1,11 @@
 package StackableTools;
 
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
 import net.minecraft.init.Items;
 import net.minecraftforge.common.config.Configuration;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid="StackableTools", name="StackableTools", version="@VERSION@",dependencies="required-after:FML", useMetadata = true)
 public class StackableTools
