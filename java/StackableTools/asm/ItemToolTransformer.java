@@ -13,7 +13,7 @@ public class ItemToolTransformer implements IClassTransformer, Opcodes{
     private static final HashMap<String, String> TARGET_CLASS_NAMES = new HashMap<String, String>();
     @Override
     public byte[] transform(String name, String transformedName, byte[] basicClass) {
-        if (!FMLLaunchHandler.side().isClient() || !TARGET_CLASS_NAMES.containsKey(transformedName)) {
+        if (!TARGET_CLASS_NAMES.containsKey(transformedName)) {
             return basicClass;
         }
         try {
