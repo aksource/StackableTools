@@ -17,7 +17,7 @@ public class StackableToolsCorePlugin implements IFMLLoadingPlugin{
 
     @Override
     public String getModContainerClass() {
-        return "StackableTools.asm.StackableToolsModContainer";
+        return null;
     }
 
     @Override
