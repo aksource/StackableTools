@@ -1,11 +1,12 @@
 package StackableTools.asm;
 
-import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
+import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 
 import java.io.File;
 import java.util.Map;
 
 /**
+ * ClassTransformer登録用クラス
  * Created by A.K. on 14/03/14.
  */
 public class StackableToolsCorePlugin implements IFMLLoadingPlugin{
@@ -17,7 +18,7 @@ public class StackableToolsCorePlugin implements IFMLLoadingPlugin{
 
     @Override
     public String getModContainerClass() {
-        return "StackableTools.asm.StackableToolsModContainer";
+        return null;
     }
 
     @Override
